@@ -1,0 +1,107 @@
+<html>
+    <head>
+ <title>Practice of bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    </head>
+
+<body>    
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+<div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+<img width="6%" src="./image/ned logo.png">
+</div>
+<div class="collapse navbar-collapse" id="navbar-collapse-main">
+    <ul class="nav navbar-nav navbar-right">
+ <li><a href="#">Home</a> </li>
+<li><a href="#">About Us</a> </li>
+<li><a href="#">Login </a></li>
+<li><a href="#">Register </a></li>
+    </ul>
+    </div>
+</div>
+</nav><br/><br/><br/><br/><br/><br/>
+
+<div id="home">
+    <div id="landing-text">
+    <h1>Learning Bootstrap</h1>
+    <h3>it makes easy </h3>
+    <button class="btn btn-default btn-lg">Get Started</button>
+</div></div>
+<div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <img  src="./image/coding.png.jpg">
+    </div>
+    <div class="col-sm-6">
+   <h3 style="font-weight: 600;
+   font-style: italic;
+   text-decoration: underline;">Have fun with coding</h3>
+<p class="lead">
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more rec
+publishing software like Aldus PageMaker including versions of Lorem Ipsum
+</p>
+    </div>
+</div>
+
+</div>
+<br/><br/><br/>
+<div class="row">
+        
+        <div class="col-sm-6">
+       <h3 style="font-weight: 600;
+       font-style: italic;
+       text-decoration: underline;">Have fun with coding</h3>
+    <p class="lead">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more rec
+    publishing software like Aldus PageMaker including versions of Lorem Ipsum
+    </p>
+        </div>
+        <div class="col-sm-6">
+                <img width="70%" src="./image/graphics.jpg">
+            </div>
+    </div>
+
+<div id="footer">
+
+<div class="row">
+    <div class="col-sm-3"><center>
+    <h4>Explore</h4>   
+    <p id="footer_lines">Home<br/>About US<br/>Contact<br/>Capabilities</p> </center>
+
+    </div>
+    <div class="col-sm-3">
+        <center>
+            <h4>Follow US</h4>   
+            <p id="footer_lines">Facebook<br/>Instagram<br/>Twitter<br/>Linkedin</p> </center>
+
+    </div>
+
+    <div class="col-sm-3">
+            <h4>Legal</h4>   
+            <p id="footer_lines">Terms<br/>Privacy<br/>
+ </div>
+ <div class="col-sm-3">
+        <center>
+            <h4>Follow US</h4>   
+            <p id="footer_lines">Facebook<br/>Instagram<br/>Twitter<br/>Linkedin</p> </center>
+
+    </div>
+</div>
+</div>
+</body>    
+</html>
