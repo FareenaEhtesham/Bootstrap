@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="bootstrap.CSS">
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+
+   <section id="title">
+    <nav class="navbar stickytop navbar-expand-lg navbar-dark black ">
+  <img id="ned_logo"src="./images/logo.jpg">&nbsp;&nbsp;<a class="navbar-brand" href="#" style="-webkit-text-fill-color: black;
+  font-weight: bold; font-size: 25px;">COMPANY NAME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" >
+
+<span class="navbar-toggler-icon"></span>
+</button>
+  
+<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+     
+      
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link " href="">Home</a></li>
+            <li class="nav-item dropdown">
+             
+              <a class="nav-link dropdown-toggle" id="drophere" href="">Home</a>
+            <div class="dropdown-menu" aria-labelledby="drophere">
+
+                <a class=" dropdown-item">Our Clients</a>
+                <a class=" dropdown-item">Our Services</a>
+                <a class="dropdown-item">Our Projects</a>
+<div class="dropdown-divider"></div>
+
+            </div>
+            
+            
+            </li>
+            <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div id="goods" class="row">
+
+        <div id="i1" class="col-lg-3 col-md-4 col-sm-6"><center>
+        
+          <img id="camera" src="./images/camera.jpg">
+          <h4>Rs 12000</h4></center>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua</p>
+        </div>
+        
+        <div id="i2" class="col-lg-3 col-md-4 col-sm-6"><center>
+          <img  id="joystick" src="./images/joy stick.jpg">
+          <h4>Rs 15000</h4></center>
+        
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+              labore et dolore magna aliqua</p>
+        </div>
+        
+        
+        <div id="i2" class="col-lg-3 col-md-4 col-sm-6"><center>
+            <img  id="joystick" src="./images/wristwatch-407096_640.jpg">
+            <h4>Rs 500</h4></center>
+          
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua</p>
+            </div>
+        
+        
+        
+        <div id="i2" class="col-lg-3 col-md-4 col-sm-6"><center>
+            <img  id="joystick" src="./images/dinner.jpg">
+            <h4>Rs 500</h4></center>
+          
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua</p>
+            </div>
+        </div>
+    </div>
+   <!--2nd part-->
+    <div class="carousel-item">
+
+      
+<div id="goods" class="row">
+
+  <div id="i1" class="col-lg-3 col-md-4 col-sm-6"><center>
+  
+    <img id="joystick" src="./images/eyeshadow-682997_640.jpg">
+    <h4>Rs 2000</h4></center>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+      labore et dolore magna aliqua</p>
+  </div>
+  
+  <div id="i2" class="col-lg-3 col-md-4 col-sm-6"><center>
+    <img  id="joystick" src="./images/sunglasses-304666_640.png">
+    <h4>Rs 15000</h4></center>
+  
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua</p>
+  </div>
+  
+  
+  <div id="i2" class="col-lg-3 col-md-4 col-sm-6"><center>
+      <img  id="joystick" src="./images/sunglasses-304666_640.png">
+      <h4>Rs 500</h4></center>
+    
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+          labore et dolore magna aliqua</p>
+      </div>
+  
+  
+  
+  <div id="i2" class="col-lg-3 col-md-4 col-sm-6"><center>
+      <img  id="joystick" src="./images/wedding-rings-3611277_640.jpg">
+      <h4>Rs 500</h4></center>
+    
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+          labore et dolore magna aliqua</p>
+      </div>
+  </div>
+
+    </div>
+    <!--Third para-->
+    <div class="carousel-item">
+ 
+      <div id="goods" class="row">
+
+        <div id="i1" class="col-lg-3 col-md-4 col-sm-6"><center>
+        
+          <img id="joystick" src="./images/headphones.jpg">
+          <h4>Rs 2000</h4></center>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua</p>
+        </div>
+        
+        <div id="i2" class="col-lg-3 col-md-4 col-sm-6"><center>
+          <img  id="joystick" src="./images/makeup (1).jpg">
+          <h4>Rs 15000</h4></center>
+        
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+              labore et dolore magna aliqua</p>
+        </div>
+        
+        
+        <div id="i2" class="col-lg-3 col-md-4 col-sm-6"><center>
+            <img  id="joystick" src="./images/mobile.jpg">
+            <h4>Rs 500</h4></center>
+          
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua</p>
+            </div>
+        
+        
+        
+        <div id="i2" class="col-lg-3 col-md-4 col-sm-6"><center>
+            <img  id="joystick" src="./images/usb.png">
+            <h4>Rs 500</h4></center>
+          
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua</p>
+            </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+
