@@ -1,0 +1,65 @@
+  body{
+    overflow:scroll;
+    overflow-x: hidden;
+  }
+#work{
+
+  background-color: #eafbea;/*here we dont use height:600px b/c wo div ko dekh kar hi kardy ga*/
+  
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+#review{
+  text-align: center;
+  font-family:"Lobster";
+  font-size: 19px;
+  font-style: italic;
+  padding: 4%;
+  color: gray;
+}
+
+#ned_logo{
+
+    width: 3%;
+    height: 3%;
+}
+#title{
+    background-color: #cccccc
+}
+.nav-link{
+    -webkit-text-fill-color: black;
+    font-weight: bold;
+
+}
+
+#camera {
+    width: 60%;
+    height: 50%;
+    
+}
+
+#joystick {
+    width: 60%;
+    height: 50%;
+}
+#i1{
+    border: 1px solid black;
+    transition:0.2;
+   width: 3000px;
+}
+#i1:hover{
+    transform: scale(1.05);
+  
+}
+#i2{
+    border: 1px solid black;
+    transition:0.7s;
+}
+#i2:hover{
+    transform: scale(1.05);
+}
+
+#goods{
+    background-color: #ffff;
+}
